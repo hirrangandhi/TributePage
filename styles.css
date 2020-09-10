@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    background: linear-gradient(120deg, hsl(60, 20%, 20%), hsl(60, 20%, 10%));
+    width: 100%;
+    height: auto;
+}
+
+#title {
+    text-align: center;
+    padding: 40px 0px;
+}
+
+h1 {
+    font-size: 45px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    animation-name: vijay;
+    animation-duration: 2s;
+    animation-direction: normal;
+
+    text-shadow: 5px 3px 10px rgba(255, 230, 230, 0.3)
+}
+
+@keyframes vijay {
+    0% {
+        opacity: 0;
+        letter-spacing: 50px;
+        color: hsl(60, 20%, 15%);
+    }
+
+    40% {
+        opacity: 0.2;
+        color: hsl(0, 0%, 15%);
+    }
+
+    70% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#image {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    box-shadow: 0 20px 100px rgba(255, 255, 77, 0.4), 0 10px 25px rgba(191, 64, 64, 0.3);
+}
+
+#img-caption {
+    text-align: center;
+    padding: 20px;
+    color: #000000;
+    font-family: Kumbh sans, Sans-serif;
+    opacity: 0.5;
+}
+
+#tribute-info,
+#link {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#tribute-info>p {
+    font-size: 16px;
+    line-height: 1.3em;
+    letter-spacing: 0.03em;
+    color: rgb(204, 204, 179);
+    font-family: Kumbh sans, Sans-serif;
+    font-weight: 400;
+}
+
+#link {
+    padding: 25px 0px 0px 0px;
+    color: rgb(204, 204, 179);
+    letter-spacing: 0.03em;
+    font-family: Kumbh Sans, Sans-serif;
+}
+
+a {
+    color: rgb(204, 204, 179);
+}
+
+a:hover {
+    color: hsl(24, 100%, 100%);
+    font-weight: 100;
+    font-family: Architects Daughter, cursive;
+}
+
+footer {
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: syne;
+    color: lightgray;
+}
